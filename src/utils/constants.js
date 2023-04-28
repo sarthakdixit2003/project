@@ -1,11 +1,7 @@
 import HomeIcon from '@mui/icons-material/Home';
 import CodeIcon from '@mui/icons-material/Code';
 import OndemandVideoIcon from '@mui/icons-material/OndemandVideo';
-import LiveTvIcon from '@mui/icons-material/LiveTv';
 import SchoolIcon from '@mui/icons-material/School';
-import FaceRetouchingNaturalIcon from '@mui/icons-material/FaceRetouchingNatural';
-import CheckroomIcon from '@mui/icons-material/Checkroom';
-import FitnessCenterIcon from '@mui/icons-material/FitnessCenter';
 import DeveloperModeIcon from '@mui/icons-material/DeveloperMode';
 
 export const logo = 'https://i.ibb.co/s9Qys2j/logo.png';
@@ -17,10 +13,10 @@ export const categories = [
   { name: 'Class 9-10', icon: <SchoolIcon />, },
   { name: 'Class 11-12', icon: <SchoolIcon />, },
   { name: 'Comp Science', icon: <CodeIcon /> },
-  { name: 'Physics', icon: <LiveTvIcon />, },
-  { name: 'Chemistry', icon: <FitnessCenterIcon />, },
-  { name: 'Mathematics', icon: <CheckroomIcon />, },
-  { name: 'History', icon: <FaceRetouchingNaturalIcon />, },
+  { name: 'Physics', icon: <SchoolIcon />, },
+  { name: 'Chemistry', icon: <SchoolIcon />, },
+  { name: 'Mathematics', icon: <SchoolIcon />, },
+  { name: 'History', icon: <SchoolIcon />, },
   { name: 'Economics', icon: <SchoolIcon />, },
   { name: 'Commerce', icon: <SchoolIcon />, },
   { name: 'Accounts', icon: <DeveloperModeIcon />, },
